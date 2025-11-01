@@ -1,0 +1,23 @@
+nav{
+    margin: 0;
+    padding: 0; 
+    background-color: red;
+    color: black;
+    text-decoration: none;
+    
+
+}
+div{
+    display: flex;
+}
+div img{
+    height: 600px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    
+
+
+}
