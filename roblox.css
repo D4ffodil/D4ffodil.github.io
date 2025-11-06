@@ -1,0 +1,62 @@
+*{
+    font-family: 'Roboto';
+}
+nav{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+nav > div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo{
+    height: 40px;
+}
+nav i{
+    padding: 6px;
+    border-radius: 4px;
+    font-size: xx-large;
+}
+nav i:hover{
+    background-color: lightgray;
+}
+nav a{
+    color: rgb(31, 52, 52);
+    text-decoration: none;
+    padding: 6px;
+    border-bottom: 2px solid transparent;
+}
+nav a:hover{
+    border-bottom: 2px solid black;
+}
+input{
+    background-color: rgb(227, 235, 249);
+    border: 1px solid rgb(66, 117, 211);
+    padding: 4px;
+    border-radius: 5px;
+    width: 150px;
+}
+.foto{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.nome:hover{
+    text-decoration: underline;
+}
+.perfil{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.idade{
+    font-size: 10px;
+    color: rgb(96, 96, 96);
+    font-weight: bold;
+}
+.idade:hover{
+    font-size: 14px;
+
+}

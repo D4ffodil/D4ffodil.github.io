@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(83, 0, 160);
+    text-align: center; 
+    color: rgb(255, 217, 0);
+    font-family: 'Jacques Francois';
+}
+.prots{
+    width: 100%;
+}
+h1{
+    font-size: 60px;
+    font-family: 'Darumadrop One';
+}
+p{
+    font-size: large;
+}
+
+hr{
+    border-color: chartreuse;
+}
+.j1{
+    height: 800px;
+    width: 600px;
+  
+}
+.star{
+    padding: 10px;
+    background-color: darkviolet;
+    font-size: 40px;
+    color: orange;
+    font-family: 'UnifrakturMaguntia';
+}

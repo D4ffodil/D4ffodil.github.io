@@ -1,0 +1,42 @@
+/*
+p seleciona todos parágrafos
+div p seleciona os parágrafos que estiverem dentro de uma div
+div > p seleciona somente os parágrafos filhos de uma div
+*/
+
+
+
+
+/*seleciona TODAS divs
+*/
+div{
+    font-size: 24px;
+    border: 3px solid black;
+    padding: 8px;
+    margin:  8px;
+
+}
+/*seleciona todas div que estão dentro de outra div
+*/
+div div{
+    color: red;
+
+}
+/* seleciona somente divs que são filhas diretas de outra div*/
+div > div{
+
+}
+
+body > div{
+    color: rgb(89, 0, 255);
+
+}
+div > div > div{
+
+}
+body > div > div{
+   
+}
+body div div{
+     border-radius: 20px;
+}

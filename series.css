@@ -1,0 +1,40 @@
+.anime img{
+    
+    width: 400px;
+}
+.anime{
+    
+    background-color: rgb(174, 174, 174);
+    display: flex;
+    gap: 30px;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 20px;  
+    text-align: justify;
+    font-family: "blaceb";
+  
+    
+
+    
+}
+@font-face {
+  font-family: "blaceb";
+  src:
+     url(BLACEB__.TTF) format("truetype");
+}
+
+@media(  max-width: 600px) {
+
+   .anime{
+    flex-direction: column;
+    align-items: center;
+   }
+   .anime img{
+    width: 250px;
+
+   }
+}
+
+
+
+

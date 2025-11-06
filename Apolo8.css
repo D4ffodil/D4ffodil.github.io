@@ -1,0 +1,24 @@
+.mensagem{
+font-family: cursive;
+font: size 22px; ;
+text-align: center;
+}
+#msg1{
+    color: red;
+}
+#msg2{
+    color: blue;
+    text-decoration: underline;
+}
+.figo{
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.figo:hover{
+    opacity: 1;
+    scale: 1.1;
+}

@@ -1,0 +1,33 @@
+/*
+
+SELETOR (QUEM eu quero estilizar)
+ATRIBUTO (O QUE eu quero estilizar)
+VALOR (COMO eu quero estilizar)
+
+seletor{
+    atributo: valor;
+    atributo: valor;
+}
+*/
+p{
+    color: rgb(0, 255, 255);
+    font-size: 24px;
+    font-family: fantasy;
+    background-color: rgb(255, 136, 0);
+}
+h1{
+    color: chartreuse;
+    background-color: maroon;
+    border-radius: 50px;
+    text-align: center;
+    border: 15px dashed white;
+}
+body{
+  background-color: rgb(76, 0, 148);
+}
+img{
+    height: 800px;
+    width: 600px;
+    border-radius: 800px;
+    border: 30px solid rgb(255, 230, 0);
+}
