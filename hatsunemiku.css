@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(2, 255, 255, 0.912);
+    
+         
+}
+nav{
+    background-color: rgb(152, 0, 222);
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+nav > div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+nav a{
+    color: rgb(255, 179, 0);
+    text-decoration: none;
+}
+img{
+    margin-left: 95px;
+    margin-bottom: 42px;
+   
+    
+}
+.cube{
+    width: 400px;
+    height: 400px;
+}
+.ret{
+    width: 600px;
+    height: 800px;
+}
